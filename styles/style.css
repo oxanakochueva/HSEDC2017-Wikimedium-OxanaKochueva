@@ -1,0 +1,26 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-image: url(../dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 700px;
+  margin: 0 auto;
+
+
+}
+h1 {
+  font-weight: bold;
+}
+p {
+  font-size: 21px;
+  line-height: 26px;
+
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 1.4em;
+  text-decoration: uppercace;
+}

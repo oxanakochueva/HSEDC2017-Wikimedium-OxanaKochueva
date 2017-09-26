@@ -6,6 +6,8 @@ body {
   background-repeat: no-repeat;
   width: 700px;
   margin: 0 auto;
+  margin-top:50px
+
 
 
 }
@@ -13,8 +15,8 @@ h1 {
   font-weight: bold;
 }
 p {
-  font-size: 21px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 25px;
 
 }
 
@@ -23,4 +25,7 @@ h1 {
   font-size: 30px;
   line-height: 1.4em;
   text-decoration: uppercace;
+}
+title {
+  font-size: 60px
 }

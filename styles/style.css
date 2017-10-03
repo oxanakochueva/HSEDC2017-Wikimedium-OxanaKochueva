@@ -1,25 +1,32 @@
 body {
   font-family: 'PT Sans', sans-serif;
-  background-image: url(../dc-online-media-mockup.jpg);
+background-image: url(../dc-online-media-mockup.jpg);
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;
   width: 700px;
   margin: 0 auto;
-  margin-top:50px
+  margin-top:50px;
+  margin-bottom: 50px
+}
 
-
-
+a{
+  color: rgb(0, 0, 0)
 }
 h1 {
+  font-weight: bold;
+}
+h2 {
   font-weight: bold;
 }
 p {
   font-size: 20px;
   line-height: 25px;
-
 }
-
+ul,ol{
+  font-size: 20px;
+  line-height: 25px;
+}
 h1 {
   color: rgb(0, 0, 0);
   font-size: 30px;
@@ -28,4 +35,9 @@ h1 {
 }
 title {
   font-size: 60px
+}
+blockquote{
+  font-style: italic;
+  font-size: 20px;
+  line-height: 25px;
 }

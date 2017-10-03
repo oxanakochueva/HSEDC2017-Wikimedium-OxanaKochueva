@@ -1,14 +1,16 @@
 body {
   font-family: 'PT Sans', sans-serif;
-background-image: url(../dc-online-media-mockup.jpg);
+background-image: url(../img/dc-online-media-mockup.jpg);
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;
   width: 700px;
   margin: 0 auto;
   margin-top:50px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  line-height: 66px
 }
+
 
 a{
   color: rgb(0, 0, 0)
@@ -34,7 +36,7 @@ h1 {
   text-decoration: uppercace;
 }
 title {
-  font-size: 60px
+  font-size: 45px
 }
 blockquote{
   font-style: italic;

@@ -57,6 +57,7 @@ body {
    width: 300px;
    opacity: .1;
    transition: opasity .2s ease;
+   z-index: 1;
  }
 
 .sidebar:hover{

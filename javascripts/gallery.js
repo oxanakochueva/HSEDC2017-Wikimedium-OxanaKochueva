@@ -10,7 +10,7 @@ $(function() {
   }
 
   function canMovePrev() {
-    return state.currentImage != 1;
+    return state.currentImage != - 1;
   }
 
   function railTransition() {
@@ -49,6 +49,7 @@ $(function() {
     }
   }
 
+
   function setImageWidth() {
     state.imageWidth = $('.gallery figure').first().width();
   }
@@ -59,7 +60,8 @@ $(function() {
   });
 
   $('.gallery .galleryNavItem').on('click', function(e) {
-    console.log(state);
+
+
 
     if ($(this).hasClass('disabled')) {
       e.preventDefault();
@@ -68,6 +70,7 @@ $(function() {
       moveRail(this.id);
       checkMoveAvailability();
     }
+      console.log(state);
   });
 
   setImageWidth();

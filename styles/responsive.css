@@ -9,6 +9,9 @@
     width: 100%;
     margin: 80px 0;
   }
+  .galleryNav div::before, .galleryNav div::after {
+    background: #fff;
+  }
 }
 
 @media all and (max-width: 740px) {
@@ -16,4 +19,40 @@
     width: 100%;
     padding: 0 20px;
   }
+
+  .gallery {
+    margin-left: -20px;
+    width: calc(100% + 40px);
+  }
+
+
+
+  .galleryRail figure, .galleryRail img {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .postFeed {
+    padding-top: 60px;
+  }
+
+  .postFeed a {
+    width: calc(100% - 40px)
+  }
+
+  .postFeed figure {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .postFeed h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .postFeed p {
+  font-size: 16px;
+  line-height: 24px;
+  }
+
 }

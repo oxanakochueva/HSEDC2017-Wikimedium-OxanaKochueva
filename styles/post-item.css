@@ -46,13 +46,15 @@ iframe{
 .about {
   font-size: 14px;
   line-height: 50px;
-  color: rgba(0,0,0,.2)
+  color: rgba(0,0,0,.2);
+  opacity: 90%;
   -webkit-transition: color .1s ease;
   transition: color .1s ease;
+  cursor: pointer;
 }
 
 .about:hover {
-  color: rgba(0,0,0,.4);
+  color: rgba(0,0,0,1);
 }
 
  .sidebar {

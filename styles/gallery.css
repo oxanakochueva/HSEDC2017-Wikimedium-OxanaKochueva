@@ -24,6 +24,18 @@ transition: all .3s ease;
   margin: 0 auto;
 }
 
+.gallery figcaption {
+  height: 51px;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(0, 0, 0, .4)
+}
+
+.gallery figcaption a {
+  text-decoration: underline;
+}
+
 .galleryNav {
   position: absolute;
 display: -webkit-box;
@@ -37,15 +49,18 @@ justify-content: space-between;
 align-items: center;
 width: 100%;
 height: calc(100% - 51px);
+max-width: 1200px;
+left: 50%;
+transform: translate(-50%, 0);
+z-index: 1;
 }
-
 .galleryNavItem {
   position: relative;
   width: 20px;
   height: 20px;
   margin: 30px;
   cursor: pointer;
-  z-index: 2;
+  z-index: 3;
 }
 
 .galleryNavItem::before, .galleryNavItem::after {

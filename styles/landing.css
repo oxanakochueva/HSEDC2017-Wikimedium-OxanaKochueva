@@ -79,7 +79,7 @@ body.landing {
 .img.ipad {
   position: relative;
   background-image: url(../img/landing-mockup-2@2x.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   top: 97px;
   left: 100px;
@@ -91,6 +91,7 @@ body.landing {
   position: relative;
   background-image: url(../img/landing-mockup-3@2x.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   width: 732px;
   height: 660px;
   top: 92px;
@@ -105,11 +106,16 @@ body.landing {
     text-align: center;
     top: 130px;
     width: 100%;
+    margin: 0 auto;
   }
 
-  .action.h2 {
+  .action h2 {
     font-size: 40px;
     line-height: 52px;
+  }
+
+  .action {
+    width: 90%;
   }
 
   .action nav {
@@ -145,3 +151,162 @@ body.landing {
     background-color: #2BD42B;
     color: white;
   }
+
+  @media all and (max-width: 1020px) {
+    .one_page {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .text {
+      top: 120px;
+      left: 60px;
+      width: 50%;
+
+    }
+
+    .text h2 {
+      font-size: 30px;
+      line-height: 38px;
+    }
+
+    .text p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    }
+
+    .text:nth-child(2) {
+      top: 120px;
+      left: -60px;
+      width: 50%;
+    }
+
+    .text:nth-child(2) figure {
+      left: 200px;
+    }
+
+    .text figure {
+      width: 160px;
+      height: 15px;
+      margin-top: 30px;
+      left: -30px;
+    }
+
+    .img.mb {
+    width: 600px;
+    height: 600px;
+    top: 120px;
+    right: -80px;
+    }
+
+    .img.ipad {
+    width: 357,31px;
+    height: 450px;
+    top: 100px;
+    left: 10px;
+    }
+
+    .img.site {
+    width: 450px;
+    height: 450px;
+    top: 100px;
+    right: -80px;
+    }
+
+    .action {
+      width: 80%;
+      margin: 0 auto;
+      top: 0px;
+    }
+
+  }
+
+
+@media all and (max-width: 740px) {
+  .text figure {
+    display: none;
+  }
+
+  .one_page {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    top: 60px;
+    left: 20px;
+    width: 80%;
+  }
+
+  .text h2 {
+    font-size: 30px;
+    line-height: 38px;
+
+  }
+
+  .text p {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 10px;
+  }
+
+  .text:nth-child(2) {
+    top: -410px;
+    left: 20px;
+    width: 80%;
+  }
+
+  .img.mb {
+  width: 400px;
+  height: 400px;
+  top: 0;
+  right: -50px;
+  }
+
+  .img.ipad {
+  width: 317,61px;
+  height: 400px;
+  top: 370px;
+  left: 80px;
+  }
+
+  .img.site {
+  width: 400px;
+  height: 400px;
+  top: 30px;
+  right: -50px;
+  }
+
+  .action h2 {
+    font-size: 36px;
+    line-height: 48px;
+    text-align: left;
+  }
+
+  .action p {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .action {
+    height: 650px;
+    width: 90%;
+    left: 5px;
+
+}
+
+  .button.left{
+  margin-bottom: 10px;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.button.right{
+margin-bottom: 50px;
+}
+
+}
